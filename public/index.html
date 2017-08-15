@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Implicits</title>
+  <meta charset="utf-8">
+  <style>
+    @import url('https://fonts.googleapis.com/css?family=Inconsolata:400,700|Open+Sans:300i,400|Poppins:400,700');
+
+    a {
+      color: rgb(255, 68, 57);
+      text-decoration: none;
+    }
+
+    blockquote {
+      font-family: 'Open Sans';
+      font-size: 24pt;
+      font-style: italic;
+      /* font-weight: lighter; */
+    }
+
+    blockquote cite {
+      font-size: 15pt;
+      float: right;
+    }
+
+    blockquote cite:before {
+      content: '\2014 '
+    }
+
+    body {
+      font-family: 'Open Sans';
+      font-size: 12pt;
+    }
+
+    h1,
+    h2,
+    h3 {
+      font-family: 'Poppins';
+      font-weight: bold;
+      line-height: 1em;
+    }
+
+    h1 {
+      font-size: 32pt;
+    }
+
+    h2 {
+      font-size: 18pt;
+    }
+
+    .remark-code,
+    .remark-inline-code {
+      font-family: 'Inconsolata';
+    }
+
+    .section {
+      background-color: rgb(1, 117, 220);
+      color: white;
+    }
+
+    .section a {
+      color: rgb(125, 218, 219);
+    }
+  </style>
+</head>
+
+<body>
+  <textarea id="source">
+
+  </textarea>
+  <script src="https://remarkjs.com/downloads/remark-latest.min.js">
+
+  </script>
+  <script>
+    var slideshow = remark.create({
+      sourceUrl: 'source.md'
+    });
+  </script>
+</body>
+
+</html>
