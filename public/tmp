@@ -26,4 +26,21 @@ someFuture
   /* etc */
 ```
 
-This would und
+This would obviously get old. But thankfully, implicit parameters mean we don't have to do it this way.
+
+Declaring an implicit parameter looks like this:
+
+```scala
+def f(a1: X, a2: Y)(implicit i1: I, i2: J): A
+```
+
+Note that this builds on another feature of Scala, which is that you can have multiple parameter lists on a single function. The implicit parameter list has to come last, and you can only have one implicit parameter list (though it can contain however many parameters you need). 
+
+---
+
+Implicit values are how we populate the implicit arguments.
+
+
+---
+
+Debugging implicits
