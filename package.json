@@ -2,7 +2,7 @@
   "private": true,
   "author": "Joel McCance",
   "scripts": {
-    "start": "yarn run http-server ./public"
+    "start": "yarn run http-server"
   },
   "dependencies": {
     "http-server": "^0.10.0"
