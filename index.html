@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Implicits</title>
+  <meta charset="utf-8">
+  <style>
+    @import url('https://fonts.googleapis.com/css?family=Inconsolata:400,700|Open+Sans:300i,400|Poppins:400,700');
+
+    a {
+      color: rgb(255, 68, 57);
+      text-decoration: none;
+    }
+
+    blockquote {
+      font-family: 'Open Sans';
+      font-size: 24pt;
+      font-style: italic;
+    }
+
+    blockquote cite {
+      font-size: 15pt;
+      float: right;
+    }
+
+    blockquote cite:before {
+      content: '\2014 '
+    }
+
+    body {
+      font-family: 'Open Sans';
+    }
+
+    h1,
+    h2,
+    h3 {
+      font-family: 'Poppins';
+      font-weight: bold;
+      color: rgb(1, 117, 220);
+    }
+
+    .remark-code,
+    .remark-inline-code {
+      font-family: 'Inconsolata';
+    }
+
+    .remark-slide-content {
+      font-size: 18pt;
+    }
+
+    .remark-slide-content h1 {
+      font-size: 36pt;
+    }
+
+    .remark-slide-content h2 {
+      font-size: 24pt;
+    }
+
+    .remark-slide-content h3 {
+      font-size: 18pt;
+    }
+
+    .figure {
+      width: 100%;
+    }
+
+    .footnote {
+      position: absolute;
+      bottom: 3em;
+    }
+
+    .reaction {
+      font-size: 48pt;
+      text-align: center;
+      display: block;
+    }
+
+    .title {
+      background-color: rgb(1, 117, 220);
+      color: white;
+    }
+
+    .title h1, 
+    .title h2, 
+    .title h3 {
+      color: white;
+    }
+
+    .title a {
+      color: rgb(125, 218, 219);
+    }
+  </style>
+</head>
+
+<body>
+  <textarea id="source">
+
+  </textarea>
+  <script src="https://remarkjs.com/downloads/remark-latest.min.js">
+
+  </script>
+  <script>
+    var slideshow = remark.create({
+      sourceUrl: 'source.md'
+    });
+  </script>
+</body>
+
+</html>
